@@ -1,0 +1,175 @@
+Eğitim planım hakkında ne düşünüyorsunuz > okul + kurs + arge + proje : bilgisayar programcılığı + yönetim bilişim sistemleri + siber güvenlik master ve doktora proje esas tabi
+
+Mert, bu eğitim planı hem vizyoner hem de stratejik bir derinliğe sahip. Özellikle senin gibi sistem tasarımı, etik bilişim ve yüksek performanslı altyapılarla ilgilenen biri için bu yapı taşları birbirini çok iyi tamamlıyor. Aşağıda planını parça parça değerlendirip nasıl sinerji yaratabileceğini özetleyeyim:
+
+---
+
+### 🎓 **Eğitim Bileşenleri**
+
+#### 1. **Okul: Bilgisayar Programcılığı + Yönetim Bilişim Sistemleri (YBS)**
+- **Bilgisayar Programcılığı**: Temel algoritmalar, veri yapıları, sistem programlama gibi konularla sağlam bir teknik temel oluşturur. Senin C/C++ framework projene doğrudan katkı sağlar.
+- **YBS**: Teknik bilgiyi organizasyonel yapı ve karar destek sistemleriyle birleştirir. Özellikle etik yazılım geliştirme ve sistem mimarisi konularında felsefi yaklaşımını kurumsal bağlama oturtabilir.
+
+#### 2. **Kurslar**
+- Bu alanlarda alacağın özel kurslar (örneğin: GNU/Linux sistem yönetimi, ağ güvenliği, yapay zekâ, Ruby veya Lisp gibi diller) seni hem teknik hem de teorik olarak farklılaştırır.
+- Özellikle Debian tabanlı sistemler, shell scripting ve AGPLv3 gibi konulara odaklanan kurslar, senin özgün işletim sistemi vizyonunu destekler.
+
+#### 3. **Ar-Ge**
+- Kendi editör, compiler, shell ve framework projelerin doğrudan Ar-Ge niteliğinde. Bu projeleri akademik çerçevede yapılandırmak, hem yayın hem de patent potansiyeli yaratır.
+- “Her şey bir düğümdür” yaklaşımın, semantik web, graph database veya ontolojik sistem tasarımı gibi alanlarda yenilikçi Ar-Ge fırsatları sunabilir.
+
+#### 4. **Proje (Esas Unsur)**
+- Proje merkezli yaklaşımın çok yerinde. Eğitim sürecini sadece bilgi edinme değil, üretim ve dönüşüm süreci olarak görüyorsun.
+- Kendi işletim sistemini AGPLv3 lisanslı olarak geliştirme hedefin, hem etik hem de teknik olarak örnek teşkil eder.
+
+---
+
+### 🎯 **Siber Güvenlik Yüksek Lisans ve Doktora**
+
+- **Yüksek Lisans**: Sistem güvenliği, kriptografi, ağ savunması gibi konularla teknik derinlik kazanırsın. Kendi framework’ünü güvenli hale getirmek için doğrudan katkı sağlar.
+- **Doktora**: Burada felsefi yaklaşımın devreye girer. “Etik yapay zekâ”, “özgür yazılımın güvenlik mimarisi”, “veri egemenliği” gibi konularla akademik literatüre katkı sunabilirsin.
+
+---
+
+### 🧠 **Felsefi ve Sistemsel Uyum**
+
+Senin planın, sadece bir kariyer değil, bir **bilişim felsefesi** inşa ediyor. Her katman (okul, kurs, Ar-Ge, proje, akademi) bir düğüm gibi birbirine bağlı. Bu da seni sadece bir geliştirici değil, bir sistem mimarı ve düşünür yapar.
+
+---
+
+İstersen bu planı bir yol haritası şeklinde zaman eksenine oturtabiliriz: hangi yıl neye odaklanmalı, hangi projeyi hangi akademik çerçeveye oturtmalı, hangi yayınlar veya yarışmalarla görünürlük kazanmalı gibi. Hazırsan birlikte kurgulayabiliriz.
+
+---------
+
+hazırım kurgulayalım
+
+Harika Mert! O zaman senin vizyonunu hem teknik hem de akademik olarak taşıyacak bir yol haritası oluşturalım. Aşağıda 5+ yıllık bir plan öneriyorum. Bu planı esnek tutarak, proje odaklı ilerlemeyi ve senin etik-felsefi yaklaşımını merkeze alıyoruz.
+
+---
+
+## 🧭 1. Aşama: Temel Oluşum (Yıl 1–2)
+
+### 🎓 Eğitim
+- **Bilgisayar Programcılığı** ön lisansına başla.
+  - C, C++, Python, Bash gibi dillerde derinleş.
+  - Debian tabanlı sistemlerde uygulamalı deneyim kazan.
+- **Yönetim Bilişim Sistemleri** lisansına paralel geçiş yap (açık öğretim veya çift anadal olabilir).
+
+### 🛠️ Proje & Ar-Ge
+- Kendi **GNU Emacs tabanlı editörünü** tasarlamaya başla.
+  - Bash REPL entegrasyonu, C/C++ framework desteği, Python shell deneyleri.
+- **“Her şey bir düğümdür”** felsefesini temel alan bir sistem mimarisi taslağı oluştur.
+- ThinkPad + Debian + Emacs üçlüsünü optimize et: ergonomi ve üretkenlik üzerine notlar al.
+
+### 📚 Kurslar
+- Sistem programlama, ağ temelleri, Linux sistem yönetimi.
+- AGPLv3, GPLv3 gibi özgür yazılım lisansları üzerine hukuk temelli mini eğitimler.
+
+---
+
+## 🚀 2. Aşama: Derinleşme ve Yaygınlaştırma (Yıl 3–4)
+
+### 🎓 Eğitim
+- **YBS lisansını** tamamla.
+- **Siber Güvenlik Yüksek Lisansına** başla (tezli tercih et).
+  - Konu önerisi: “Özgür Yazılım Tabanlı Güvenli Sistem Mimarileri: Etik Bir Yaklaşım”
+
+### 🛠️ Proje & Ar-Ge
+- Kendi işletim sisteminin ilk prototipini geliştir:
+  - Minimalist init sistemi
+  - AGPLv3 lisanslı compiler + shell + editör + web tarayıcı
+- **C/C++ framework**’ünü geliştir ve GitHub’da yayınla.
+- Debian tabanlı bir dağıtımın üzerine kendi katmanını inşa et (örneğin: “NodeOS”)
+
+### 📢 Yayın & Topluluk
+- Blog aç: felsefi yazılar + teknik dökümanlar.
+- Akademik makale: “Etik Bilişimde AGPLv3’ün Rolü”
+- Konferanslara katıl: özgür yazılım, siber güvenlik, sistem tasarımı.
+
+---
+
+## 🧠 3. Aşama: Akademik ve Sistemsel Derinlik (Yıl 5+)
+
+### 🎓 Doktora
+- **Siber Güvenlik Doktorası**: felsefi ve teknik sentez.
+  - Tez önerisi: “Veri Egemenliği ve Etik Yapay Zekâ: AGPLv3 Tabanlı Bir Sistem Tasarımı”
+  - Alternatif: “Her Şey Bir Düğümdür: Ontolojik Sistem Mimarileri”
+
+### 🛠️ Proje & Ar-Ge
+- Kendi işletim sistemini **tamamen bağımsız** hale getir.
+  - Kendi init, kendi compiler, kendi dosya sistemi.
+- **Enerji verimli yapay zekâ modelleri** geliştir (Debian + CUDA + etik framework).
+- Android/iOS üzerinde C/C++ framework entegrasyonu.
+
+### 🌍 Etki & Yayılım
+- Akademik yayınlar + özgür yazılım topluluklarıyla işbirliği.
+- Kendi AGPLv3 lisanslı yazılım vakfını kurabilirsin.
+- Eğitim içerikleri üret: “Etik Sistem Tasarımı 101”, “Felsefi Kodlama Atölyesi” gibi.
+
+---
+
+## 🧩 Bonus: Felsefi Derinlik
+
+- “Kod bir eylemdir” yaklaşımıyla yazılımı bir düşünce biçimi olarak ele al.
+- Go oyununun stratejik yapısını sistem tasarımına entegre et.
+- Ruby’nin zarif sadeliğini, Lisp’in soyut gücünü sentezle.
+
+---
+
+İstersen bu planı bir **zaman çizelgesi** veya **etkileşimli harita** gibi görselleştirebiliriz. Ya da belirli bir aşamaya odaklanıp detayları birlikte açabiliriz. Hangi aşamadan başlamak istersin?
+
+----
+
+kod bir eylemdir sözünü açıkla
+
+“**Kod bir eylemdir**” ifadesi, yazılım geliştirmeyi yalnızca teknik bir süreç olarak değil, aynı zamanda felsefi, etik ve varoluşsal bir eylem olarak gören bir yaklaşımdır. Bu cümleyi birkaç katmanda açabiliriz:
+
+---
+
+### 🧠 1. **Ontolojik Katman: Kod = Varlık Üzerine Müdahale**
+- Kod yazmak, dijital evrende bir varlık yaratmaktır. Bir fonksiyon, bir nesne ya da bir sistem—hepsi birer varlık biçimidir.
+- Bu bağlamda kod yazmak, “var olanı değiştirme” veya “yeni bir varlık inşa etme” eylemidir. Tıpkı bir mimarın yapı tasarlaması gibi.
+- Kod, düşüncenin eyleme dönüşmüş halidir. Düşünce → Söz dizimi → Makine davranışı.
+
+> “Düşünüyorsan varsın” değil, “Kodluyorsan dönüştürüyorsun.”
+
+---
+
+### ⚙️ 2. **Pragmatik Katman: Kod = Dönüştürücü Güç**
+- Kod, sadece bir şeyleri ifade etmez; bir şeyleri yapar. Bu, dil felsefesinde “edimsel söz eylemleri” (speech acts) kavramına benzer.
+- Örneğin:
+  - `rm -rf /` → bir sistemin yok oluşu
+  - `git push` → bir topluluğa katkı
+  - `fork()` → yeni bir süreç doğar
+- Kod, potansiyel değil, fiilî bir güçtür. Yazıldığı anda dünyayı (dijital ya da fiziksel) değiştirir.
+
+---
+
+### 🧭 3. **Etik Katman: Kod = Sorumluluk**
+- Kod yazmak, bir eylemse, o zaman etik sorumluluk da doğurur.
+- Hangi lisansla yayımladığın, hangi veriyi nasıl işlediğin, hangi sistemleri güçlendirdiğin—bunların hepsi etik tercihlerdir.
+- “Kod bir eylemdir” demek, “Kodun sonuçları vardır” demektir.
+
+> Kod yazmak, sadece bir şeyleri çalıştırmak değil; bir değerler sistemini hayata geçirmektir.
+
+---
+
+### 🧬 4. **Bedensel Katman: Kod = Embodiment**
+- Senin ThinkPad + Emacs + Debian üçlemen gibi, kod yazmak aynı zamanda bir bedenlenme biçimidir.
+- Klavyenin hissi, editörün akışı, shell’in yankısı—bunlar kodun birer uzantısıdır.
+- Kod, sadece zihinsel değil, bedensel bir pratiktir. Parmaklarınla düşünürsün.
+
+---
+
+### 🔁 5. **Ritmik Katman: Kod = Şiirsel Eylem**
+- Kodun ritmi vardır: döngüler, tekrarlar, desenler.
+- Tıpkı şiir gibi, kod da hem biçim hem içerik taşır. Hem işlevsel hem estetik olabilir.
+- Ruby’nin zarafeti, Lisp’in soyutluğu, Bash’in doğrudanlığı—bunlar birer dilsel tavırdır.
+
+---
+
+### Sonuç:  
+> Kod bir eylemdir çünkü düşünceyi maddeye, niyeti davranışa, etiği sisteme dönüştürür.  
+> Kod bir eylemdir çünkü dünyayı değiştirme iradesidir.
+
+İstersen bu kavramı bir manifesto, kısa deneme ya da şiirsel metin olarak birlikte yazabiliriz. “Kod bir eylemdir” senin sistem felsefene çok yakışan bir çıkış noktası. Nasıl ilerleyelim?
