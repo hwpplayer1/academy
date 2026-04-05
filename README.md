@@ -8,6 +8,12 @@
 
 * Siber Güvenlik yüksek lisans ve doktora
 
+* Uluslararası Ekonomi Politik yüksek lisans
+
+* Dilbilimi
+
+* Telif hakları ve bilişim hukuku özelinde ve genel olarak Hukuk 
+
 # License
 
 Copyright (C) 2025-2026 Mert Gör
