@@ -1,5 +1,7 @@
 # Mert Gör'ün akademik kariyeri
 
+* Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
+
 * Bilgisayar Programcılığı 2 yıllık önlisans programı 
 
 * Yönetim Bilişim Sistemleri
