@@ -1,20 +1,22 @@
 # Mert Gör'ün akademik kariyeri
 
-* Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
+0 Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
 
-* Bilgisayar Programcılığı 2 yıllık önlisans programı 
+1 Bilgisayar Programcılığı 2 yıllık önlisans programı 
 
-* Yönetim Bilişim Sistemleri
+2 Yönetim Bilişim Sistemleri
 
-* Felsefe 
+4 Felsefe 
 
-* Siber Güvenlik yüksek lisans ve doktora
+3 Siber Güvenlik yüksek lisans ve doktora
 
-* Uluslararası Ekonomi Politik yüksek lisans
+5 Uluslararası Ekonomi Politik yüksek lisans
 
-* Dilbilimi
+6 Dilbilimi
 
-* Telif hakları ve bilişim hukuku özelinde ve genel olarak Hukuk 
+7 Telif hakları ve bilişim hukuku özelinde ve genel olarak Hukuk 
+
+++ diğer ( spor, savaş sanatları, müzik, edebiyat, resim, heykel ... )
 
 # License
 
