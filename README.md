@@ -1,22 +1,33 @@
 # Mert Gör'ün akademik kariyeri
 
-0 Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
+Odak noktamı , yani günlük yaşantımı bilgisayara , programcılığa ve bilgisayar bilimlerine vermeye başladım.
 
-1 Bilgisayar Programcılığı 2 yıllık önlisans programı 
+Bilgisayar programcılığı, Yönetim Bilişim Sistemleri okuyup bu sırada Açık Kaynak ve Özgür Yazılım projeler geliştirip ve olana katkı sunup sonrasında Siber Güvenlik yüksek lisansı ve doktorası yapıp akademik kariyer yapmak istiyorum.
 
-2 Yönetim Bilişim Sistemleri
+Aynı zamanda bilgi güvenliği araştırmacısı olarak hizmet vermek istiyorum. 
 
-4 Felsefe 
+Email: mertgor@qbnetworks.xyz
+GPG Key ID: 0xCD9E83BD9F84F0AB
 
-3 Siber Güvenlik yüksek lisans ve doktora
+## Alanlar
 
-5 Uluslararası Ekonomi Politik yüksek lisans
+Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
 
-6 Dilbilimi
+Bilgisayar Programcılığı 2 yıllık önlisans programı 
 
-7 Telif hakları ve bilişim hukuku özelinde ve genel olarak Hukuk 
+Yönetim Bilişim Sistemleri
 
-++ diğer ( spor, savaş sanatları, müzik, edebiyat, resim, heykel ... )
+Felsefe 
+
+Siber Güvenlik yüksek lisans ve doktora
+
+Uluslararası Ekonomi Politik yüksek lisans
+
+Dilbilimi
+
+Telif hakları ve bilişim hukuku özelinde ve genel olarak Hukuk 
+
+diğer ( spor, savaş sanatları, müzik, edebiyat, resim, heykel ... )
 
 # License
 
