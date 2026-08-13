@@ -9,6 +9,18 @@ Aynı zamanda bilgi güvenliği araştırmacısı olarak hizmet vermek istiyorum
 Email: mertgor@qbnetworks.xyz
 GPG Key ID: 0xCD9E83BD9F84F0AB
 
+## Odaklanma
+
+*  GNU Emacs - bilgisayar programcılığı 2 yıllık önlisans
+
+* Libreoffice ve ofis , erp crm ve ilgili konular - yönetim bilişim sistemleri 4 yıllık açık öğretim
+
+* askeri standartlarda görev kritik ve hayat kritik işler için ağ , kriptopgrafi ve disk güvenliği - siber master
+
+* Linux kernel exploit geliştirme , virüs , backdoor, rootkit ve ilgili konular - siber doktora 
+
+hedefliyorum kişisel akademik kariyerimde
+
 ## Alanlar
 
 Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
