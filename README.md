@@ -32,6 +32,14 @@ Forgejo + Woodpecker ( daha doğrusu git depolama - merkeziyetsiz federe ağlar 
 
 Kuantum sonrası kriptopgrafi
 
+## Kurslar
+
+* Bilişim Eğitim ( Cem Balık : Windows sistem yönetimi, Cisco CCNA, Web programlama) 
+
+* C ve Sistem Programcıları Derneği ( Kaan Aslan : Assembly, C, Sistem Programlama, Python )
+
+* Plepa Necati Ergin C++
+
 ## Alanlar
 
 Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
