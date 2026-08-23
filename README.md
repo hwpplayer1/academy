@@ -6,8 +6,9 @@ Bilgisayar programcılığı, Yönetim Bilişim Sistemleri okuyup bu sırada Aç
 
 Aynı zamanda bilgi güvenliği araştırmacısı olarak hizmet vermek istiyorum. 
 
-Email: mertgor@qbnetworks.xyz
-GPG Key ID: 0xCD9E83BD9F84F0AB
+* Email: mertgor@qbnetworks.xyz
+
+* GPG Key ID: 0xCD9E83BD9F84F0AB
 
 ## Odaklanma
 
