@@ -21,6 +21,16 @@ GPG Key ID: 0xCD9E83BD9F84F0AB
 
 hedefliyorum kişisel akademik kariyerimde
 
+## Tezler
+
+### Yüksek lisans
+
+Forgejo + Woodpecker ( daha doğrusu git depolama - merkeziyetsiz federe ağlar ve güvenliği)
+
+### Doktora
+
+Kuantum sonrası kriptopgrafi
+
 ## Alanlar
 
 Bilecik Şeyh Edebali Üniversitesi İktisat Mezunu 2011
