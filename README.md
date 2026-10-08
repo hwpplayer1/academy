@@ -62,7 +62,7 @@ diğer ( spor, savaş sanatları, müzik, edebiyat, resim, heykel ... )
 
 # License
 
-Copyright (C) 2025-2026 Mert Gör
+Copyright (C) 2004-2027 Mert Gör
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
