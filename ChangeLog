@@ -69,6 +69,35 @@ oluşturulmuştur. Commit açıklamaları özgün hâlleriyle korunmuştur.
   JavaScript üzerinden oluşturulacak biçimde birleştirildi. Kaynak kodu
   menüsündeki GitHub bağlantısı ve JavaScript kaynak bağlantısı ile footer
   bağlantılarının sayfa yolları kontrol edildi.
+- 2026-10-28 — Ana sayfaya Konferanslar bölümü eklendi; Mass Collaboration
+  Labs YouTube kanalı, ortak üretim ve işbirliği odaklı etkinlik, sunum ve
+  söyleşi kayıtları için tanıtıcı bir açıklamayla bağlantılandırıldı.
+- 2026-10-28 — Gezinme çubuğuna alt menüsü olmayan ayrı bir Konferanslar
+  bağlantısı eklendi ve Mass Collaboration Labs YouTube kanalına yönlendirildi.
+  Ana sayfadaki tanıtım, kanalın video kayıtlarını sonradan izleme ve güncel
+  yayınları doğrudan kanaldan takip etme olanağını açıklayacak şekilde
+  genişletildi.
+- 2026-10-28 — Gezinme çubuğuna ayrı bir Projeler menüsü ve içinde DynaCore
+  bağlantısı eklendi. Ana sayfada DynaCore ekosistemi, açık ağ protokolleri,
+  işbirliği süreçleri ve özgür yazılım özgürlükleri hakkında tanıtıcı bir
+  bölüm oluşturuldu.
+- 2026-10-28 — Tüm sayfalarda kullanılan ortak içerik genişliği 68rem'den
+  90rem'e çıkarılarak geniş ekranlardaki yatay kenar boşlukları azaltıldı;
+  küçük ekranlardaki iç boşluklar korundu.
+- 2026-10-28 — Ana sayfa bağlantısı ve tüm üst menü öğeleri, Mert Gör marka
+  başlığıyla aynı merkez hizasında görünecek şekilde ortalandı.
+- 2026-10-28 — Menü başlıklarına fareyle gelindiğinde veya tıklandığında
+  etkin menü değişecek, yan menü ve alt menü dalları kapanacak; seçilen
+  menünün üst menü ebeveynleri açık kalacak şekilde etkileşim düzenlendi.
+- 2026-10-28 — Konferanslar gibi doğrudan üst seviye gezinme bağlantılarına
+  fareyle gelindiğinde açık açılır menülerin kapanması sağlandı; böylece
+  Akademik çalışmalar menüsünden yanındaki bağlantılara geçiş tamamlandı.
+- 2026-10-28 — Son site düzenlemeleriyle tüm menüler ortalandı ve ortak içerik
+  genişliği artırıldı. Projeler menüsüne DynaCore bağlantısı, Konferanslar
+  menüsüne Mass Collaboration Labs kanalı eklendi. Açılır ve sağa açılan alt
+  menüler arasında fareyle veya tıklamayla geçiş, etkin olmayan menülerin
+  kapanması ve sayfa içeriğine geçince menülerin kapanması sağlandı; bu
+  gezinme davranışları tarayıcıda doğrulandı.
 
 ## Tarihi belirtilmeyen notlar
 

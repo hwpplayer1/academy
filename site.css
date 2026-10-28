@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  max-width: 68rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: 2rem 1.25rem 3rem;
   background-color: #000 !important;
@@ -102,6 +102,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
   gap: 0.75rem 1.25rem;
   margin-top: 1.5rem;
 }
@@ -130,8 +131,16 @@ nav {
 }
 
 .navigation-dropdown summary:hover,
-.navigation-dropdown summary:focus-visible {
+.navigation-dropdown summary:focus-visible,
+.navigation-menu-link:hover,
+.navigation-menu-link:focus-visible {
   color: #f4c430 !important;
+}
+
+.navigation-menu-link {
+  border: 1px solid currentColor;
+  padding: 0.25rem 0.6rem;
+  text-decoration: none;
 }
 
 .navigation-submenu {

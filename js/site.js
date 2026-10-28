@@ -32,6 +32,17 @@ if (navigation) {
         "Özgür Yazılım, Özgür Türkiye",
       ],
     },
+    {
+      title: "Konferanslar",
+      links: [],
+      href: "https://www.youtube.com/@masscollaborationlabs",
+    },
+    {
+      title: "Projeler",
+      links: [],
+      href: "https://dynacore.tr",
+      linkText: "DynaCore",
+    },
     { title: "Site", links: ["Değişiklik geçmişi"] },
     {
       title: "Lisanslar",
@@ -80,10 +91,36 @@ if (navigation) {
     }
   });
 
-  categories.forEach(({ title }) => {
+  categories.forEach(({ title, href, linkText }) => {
     const links = linksByTitle.get(title);
 
     if (links.length === 0) {
+      if (href) {
+        if (linkText) {
+          const dropdown = document.createElement("details");
+          const summary = document.createElement("summary");
+          const submenu = document.createElement("div");
+          const link = document.createElement("a");
+
+          dropdown.className = "navigation-dropdown";
+          summary.textContent = title;
+          submenu.className = "navigation-submenu";
+          submenu.setAttribute("aria-label", `${title} bağlantıları`);
+          link.href = href;
+          link.textContent = linkText;
+          submenu.append(link);
+          dropdown.append(summary, submenu);
+          navigation.append(dropdown);
+        } else {
+          const link = document.createElement("a");
+
+          link.className = "navigation-menu-link";
+          link.href = href;
+          link.textContent = title;
+          navigation.append(link);
+        }
+      }
+
       return;
     }
 
@@ -234,15 +271,35 @@ if (navigation) {
     navigation.append(dropdown);
   });
 
+  const activateMenu = (menu) => {
+    navigation.querySelectorAll("details[open]").forEach((openMenu) => {
+      if (openMenu !== menu && !openMenu.contains(menu)) {
+        openMenu.open = false;
+      }
+    });
+  };
+
+  navigation.querySelectorAll(":scope > a").forEach((link) => {
+    link.addEventListener("mouseenter", () => {
+      navigation.querySelectorAll("details[open]").forEach((menu) => {
+        menu.open = false;
+      });
+    });
+  });
+
   navigation.querySelectorAll("details").forEach((menu) => {
     menu.addEventListener("mouseenter", () => {
-      navigation.querySelectorAll("details[open]").forEach((openMenu) => {
-        if (openMenu !== menu && !openMenu.contains(menu)) {
-          openMenu.open = false;
-        }
-      });
-
+      activateMenu(menu);
       menu.open = true;
+    });
+
+    menu.querySelector(":scope > summary").addEventListener("click", (event) => {
+      activateMenu(menu);
+
+      if (event.detail > 0) {
+        event.preventDefault();
+        menu.open = true;
+      }
     });
   });
 
