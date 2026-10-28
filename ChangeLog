@@ -98,6 +98,10 @@ oluşturulmuştur. Commit açıklamaları özgün hâlleriyle korunmuştur.
   menüler arasında fareyle veya tıklamayla geçiş, etkin olmayan menülerin
   kapanması ve sayfa içeriğine geçince menülerin kapanması sağlandı; bu
   gezinme davranışları tarayıcıda doğrulandı.
+- 2026-10-28 — Mobil ekranlarda ortak gezinme menüsü dikey ve tam genişlikte
+  gösterilecek şekilde düzenlendi; açılır ve iç içe seçenek menüleri sayfa
+  akışında açılarak yatay taşma önlendi. Masaüstü menü düzeni korundu; 320,
+  390 ve 1366 piksel genişliklerde görünüm ve taşma tarayıcıda doğrulandı.
 
 ## Tarihi belirtilmeyen notlar
 

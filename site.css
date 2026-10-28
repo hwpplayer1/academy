@@ -98,7 +98,7 @@ h3 {
   text-transform: uppercase;
 }
 
-nav {
+.site-navigation {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -251,5 +251,41 @@ footer {
 @media (max-width: 36rem) {
   body {
     padding: 1.25rem 1rem 2rem;
+  }
+
+  nav {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .navigation-dropdown,
+  .navigation-menu-link {
+    width: 100%;
+  }
+
+  .navigation-dropdown > summary,
+  .navigation-menu-link {
+    display: block;
+    text-align: center;
+  }
+
+  .navigation-submenu,
+  .navigation-submenu--side {
+    min-width: 0;
+    position: static;
+    width: 100%;
+  }
+
+  .navigation-submenu a {
+    overflow-wrap: anywhere;
+  }
+
+  .navigation-link-group {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .navigation-nested-dropdown {
+    width: 100%;
   }
 }
