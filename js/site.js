@@ -57,6 +57,8 @@ if (navigation) {
     navigation.prepend(homeLink);
   }
 
+  const siteRoot = homeLink ? new URL(homeLink.href) : new URL(".", currentPage);
+
   navigation.querySelectorAll("a").forEach((link) => {
     const destination = new URL(link.href);
 
@@ -95,7 +97,6 @@ if (navigation) {
     submenu.setAttribute("aria-label", `${title} bağlantıları`);
 
     if (title === "Akademik çalışmalar") {
-      const siteRoot = new URL(homeLink.href);
       const degreeOptions = [
         {
           title: "Yüksek lisans",
@@ -218,6 +219,14 @@ if (navigation) {
         }
       });
     } else {
+      if (title === "Kaynak kodu") {
+        const repositoryLink = document.createElement("a");
+
+        repositoryLink.href = "https://github.com/hwpplayer1/academy";
+        repositoryLink.textContent = "Kaynak kodu";
+        submenu.append(repositoryLink);
+      }
+
       links.forEach((link) => submenu.append(link));
     }
 
@@ -252,6 +261,47 @@ if (navigation) {
       menu.open = false;
     });
   });
+
+  const footer = document.createElement("footer");
+  const licenseNotice = document.createElement("section");
+  const licenseTitle = document.createElement("h2");
+  const copyright = document.createElement("p");
+  const agplParagraph = document.createElement("p");
+  const agplLink = document.createElement("a");
+  const ccParagraph = document.createElement("p");
+  const ccLink = document.createElement("a");
+
+  licenseNotice.className = "license-notice";
+  licenseNotice.setAttribute("aria-labelledby", "footer-license-title");
+  licenseTitle.id = "footer-license-title";
+  licenseTitle.textContent = "Lisanslar";
+  copyright.textContent = "Copyright (C) 2004-2027 Mert Gör";
+  agplLink.href = "https://www.gnu.org/licenses/agpl-3.0.en.html";
+  agplLink.textContent = "GNU AGPLv3-or-later";
+  ccLink.href = "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en";
+  ccLink.textContent = "CC BY-SA 4.0 or later";
+  agplParagraph.append(agplLink);
+  ccParagraph.append(ccLink);
+  licenseNotice.append(licenseTitle, copyright, agplParagraph, ccParagraph);
+  footer.append(licenseNotice);
+
+  [
+    ["README kaynak dosyası", "README.md"],
+    ["JavaScript kodu (js/site.js)", "js/site.js"],
+    ["Kaynak Kod", "https://github.com/hwpplayer1/academy"],
+  ].forEach(([label, path]) => {
+    const paragraph = document.createElement("p");
+    const link = document.createElement("a");
+
+    link.href = path.startsWith("https:")
+      ? path
+      : new URL(path, siteRoot).href;
+    link.textContent = label;
+    paragraph.append(link);
+    footer.append(paragraph);
+  });
+
+  document.body.append(footer);
 
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") {
