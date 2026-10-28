@@ -47,6 +47,19 @@ oluşturulmuştur. Commit açıklamaları özgün hâlleriyle korunmuştur.
 - 2026-10-28 — Akademik profil ve README içeriği güncellendi; eski yıllık
   not dosyaları ile önceki konumlarındaki yinelenen akademik PDF dosyaları
   kaldırıldı, tez ve araştırma belgeleri ilgili klasörlerine taşındı.
+- 2026-10-28 — Araştırma yol haritasının özgün PDF bağlantısı doğrudan sayfa
+  içeriğinden kaldırılarak Akademik çalışmalar menüsündeki sağa açılan
+  seçenekler alt menüsüne taşındı.
+- 2026-10-28 — Akademik çalışmalar menüsündeki Makaleler, yüksek lisans ve
+  doktora ile aynı satır düzeninde bir bağlantı ve sağa açılır Seçenekler
+  menüsü olarak düzenlendi; alt menüye Özgür Yazılım, Özgür Türkiye makalesi
+  eklendi.
+- 2026-10-28 — Araştırma yol haritası, yüksek lisans, doktora ve makaleler
+  için sağa açılan seçenek menüleri tutarlı hale getirildi. Araştırma
+  yol haritasının özgün PDF indirme bağlantısı Seçenekler alt menüsüne taşındı;
+  Makaleler bağlantısının yanına Seçenekler menüsü eklenerek Özgür Yazılım,
+  Özgür Türkiye yazısı bu alt menüde sunuldu. Menü etkileşimleri ve sayfa
+  bağlantıları tarayıcıda doğrulandı.
 
 ## Tarihi belirtilmeyen notlar
 

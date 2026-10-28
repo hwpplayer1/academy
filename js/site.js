@@ -116,22 +116,62 @@ if (navigation) {
       ];
       const groupedLinks = new Set();
       const primaryLinkGroups = new Map();
+      const researchLink = links.find(
+        (link) => link.textContent.trim() === "Araştırma yol haritası",
+      );
       const articleLink = links.find(
         (link) => link.textContent.trim() === "Özgür Yazılım, Özgür Türkiye",
       );
+
+      if (researchLink) {
+        const optionsDetails = document.createElement("details");
+        const optionsLabel = document.createElement("summary");
+        const optionsMenu = document.createElement("div");
+        const linkGroup = document.createElement("div");
+        const option = document.createElement("a");
+
+        optionsDetails.className = "navigation-nested-dropdown";
+        optionsLabel.textContent = "Seçenekler";
+        optionsMenu.className = "navigation-submenu navigation-submenu--side";
+        optionsMenu.setAttribute(
+          "aria-label",
+          "Araştırma yol haritası için diğer biçimler",
+        );
+        option.href = new URL(
+          "akademik/arastirma-konulari/egitim-ve-arastirma-yol-haritasi.pdf",
+          siteRoot,
+        ).href;
+        option.textContent = "Özgün PDF dosyasını indir";
+        optionsMenu.append(option);
+        optionsDetails.append(optionsLabel, optionsMenu);
+        linkGroup.className = "navigation-link-group";
+        linkGroup.append(researchLink, optionsDetails);
+        groupedLinks.add(researchLink);
+        primaryLinkGroups.set(researchLink, linkGroup);
+      }
 
       if (articleLink) {
         const articlesDetails = document.createElement("details");
         const articlesLabel = document.createElement("summary");
         const articlesMenu = document.createElement("div");
+        const articlesGroup = document.createElement("div");
+        const articlesLink = document.createElement("a");
 
         articlesDetails.className = "navigation-nested-dropdown";
-        articlesLabel.textContent = "Makaleler";
+        articlesLabel.textContent = "Seçenekler";
         articlesMenu.className = "navigation-submenu navigation-submenu--side";
-        articlesMenu.setAttribute("aria-label", "Makaleler");
+        articlesMenu.setAttribute("aria-label", "Makaleler bağlantıları");
+        articlesLink.href = articleLink.href;
+        articlesLink.textContent = "Makaleler";
+        articlesLink.setAttribute("aria-label", "Makaleler sayfası");
+        if (articleLink.hasAttribute("aria-current")) {
+          articlesLink.setAttribute("aria-current", "page");
+        }
         articlesMenu.append(articleLink);
         articlesDetails.append(articlesLabel, articlesMenu);
-        primaryLinkGroups.set(articleLink, articlesDetails);
+        articlesGroup.className = "navigation-link-group";
+        articlesGroup.append(articlesLink, articlesDetails);
+        primaryLinkGroups.set(articleLink, articlesGroup);
         groupedLinks.add(articleLink);
       }
 
