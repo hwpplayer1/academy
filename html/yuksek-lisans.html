@@ -1,0 +1,147 @@
+<!--
+Copyright (C) 2004-2027 Mert Gör
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yüksek lisans tezi taslağı | Mert Gör</title>
+  <link rel="stylesheet" href="../site.css">
+  <script src="../js/site.js" defer></script>
+</head>
+<body>
+  <p class="site-brand"><a href="../index.html">Mert Gör</a></p>
+  <nav class="site-navigation" aria-label="Site gezinme menüsü">
+      <a href="../index.html">Ana sayfa</a>
+      <a href="profil.html">Hakkımda</a>
+      <a href="../akademik/sertifikalar/sertifika.html">Sertifikalar</a>
+      <a href="changelog.html">Değişiklik geçmişi</a>
+      <a href="licenses.html">Lisanslar</a>
+      <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPLv3-or-later</a>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0 or later</a>
+      <a href="egitim-ve-arastirma-yol-haritasi.html">Araştırma yol haritası</a>
+      <a href="yuksek-lisans.html">Yüksek lisans</a>
+      <a href="doktora.html">Doktora</a>
+      <a href="../akademik/makaleler/ozgurvemilliyazilim.html">Özgür Yazılım, Özgür Türkiye</a>
+      <a href="../js/site.js">JavaScript kodu</a>
+  </nav>
+  <header class="document-nav">
+    <a href="../akademik/yuksek-lisans/master.pdf">Özgün PDF dosyasını indir</a> · <a href="yuksek-lisans-odt.html">HTML (ODT kaynağından)</a>
+  </header>
+  <main>
+    <h1>Yüksek lisans tezi taslağı</h1>
+    <pre class="document-content">master tezi olarak federe git depolama servisi ve ci/cd vb
+
+
+
+
+Master tezi olarak Federe Git Depolama Servisi ve CI/CD Mimarisi üzerinde çalışmak, hem
+özgür yazılım topluluk inşası hem de şirketleşme hedefiniz için mükemmel bir ürün/Ar-Ge
+kaldıracıdır. Bu konu, günümüz siber güvenlik ve yazılım dünyasının en kritik trendlerinden
+ikisine doğrudan dokunur: Merkeziyetsizlik (Decentralization/Federation) ve Tedarik Zinciri
+Güvenliği (Software Supply Chain Security).
+
+Özellikle GitHub&#x27;ın tamamen Microsoft kontrolünde olması ve GitLab&#x27;in ticari kısıtlamaları, açık
+kaynak dünyasını Forgejo veya Gitea gibi projelere yönlendirmiştir. Sizin projeniz, bu
+ekosistemin siber güvenlik ayağını oluşturabilir.
+
+Bu konunun master tezi olarak nasıl yapılandırılabileceği, siber güvenlik boyutu ve şirketleşme
+potansiyeli şu şekildedir:
+
+🔬 Tez Başlığı ve Akademik Çerçeve Önerileri
+Tezinizin akademik olarak kabul görmesi ve jüriden geçmesi için başlığın hem teorik bir
+problemi çözmesi hem de yenilikçi bir mimari sunması gerekir:
+
+  ●   Öneri 1: &quot;Federe Git Depolarında Güvenli Yazılım Tedarik Zinciri Yönetimi ve Dağıtık
+      CI/CD Boru Hattı Mimarisi&quot;
+  ●   Öneri 2: &quot;ActivityPub Protokolü Tabanlı Dağıtık Kod Depolama Servislerinde Siber Tehdit
+      Analizi ve Güvenlik Sıkılaştırma Modeli&quot;
+
+   🛠️ Tezin Teknik ve Siber Güvenlik Odağı (Ar-Ge)
+Tezinizde sıradan bir Git servisi kurmanın ötesine geçmeli ve şu üç siber güvenlik problemine
+çözüm üretmelisiniz:
+
+1. Federe Yapılarda Güvenlik ve Kimlik Doğrulama
+
+  ●   Problem: Git sunucuları birbirine federe (W3C ActivityPub protokolü vb. ile bağlı)
+      olduğunda, A sunucusundaki kötü niyetli bir kod veya kullanıcı, B sunucusundaki repoları
+      nasıl etkiler?
+  ●   Çözüm/Tez Konusu: Federe düğümler (nodes) arasında Sıfır Güven (Zero Trust)
+      mimarisi kurmak. Dağıtık kriptografik imzalama mekanizmaları (örn: SSH/GPG
+      anahtarlarının federe doğrulaması) geliştirmek.
+
+2. Güvenli Dağıtık CI/CD (Boru Hattı Güvenliği)
+
+  ●   Problem: CI/CD süreçleri, siber saldırganların en sevdiği hedef haline geldi (Bkz:
+      SolarWinds saldırısı). Kodu derleyen ajanlar (runners) ele geçirilirse tüm yazılım
+      zehirlenir.
+  ●   Çözüm/Tez Konusu: Debian tabanlı dağıtımınızın üzerinde koşan, izole ve ephemeral
+      (tek kullanımlık/geçici) MicroVM&#x27;ler (örn: Firecracker) kullanan bir CI/CD runner
+      mimarisi tasarlamak. CI/CD loglarının değiştirilemezliğini (immutability) sağlamak.
+
+3. Otomatik Güvenlik Analizi (DevSecOps Integration)
+
+  ●   Çözüm/Tez Konusu: Federe sisteme entegre, kod her push edildiğinde çalışan otomatik
+      SAST (Statik Kod Analizi), DAST (Dinamik Analiz) ve Dependency Scanning
+      (Bağımlılık Analizi) modülleri geliştirmek. Bu araçları doğrudan kendi Debian
+      dağıtımınızın yerel paketleriyle beslemek.
+
+   🚀 Bu Tezin Çıkaracağınız İşletim Sistemine (OS) Katkısı
+Bu tez, çıkarmak istediğiniz Debian tabanlı bilgi güvenliği dağıtımı için katma değerli en büyük
+servis (killer feature) haline gelebilir:
+
+  ●   Yerleşik Kod Merkezi: Dağıtımınızı yükleyen kurumlar, işletim sistemiyle birlikte kendi
+      sunucularında (on-premise) çalışan, tamamen güvenli, dış dünyaya kapalı veya diğer
+      güvenli sunucularla federe olabilen bir Git ve CI/CD merkezine sahip olurlar.
+  ●   İşletim Sistemi Seviyesinde Entegrasyon: Geliştireceğiniz Git servisinin arkasındaki
+      veri depolama ve şifreleme mekanizmalarını Linux kernel seviyesinde (örn: LUKS, eBPF
+      ile sistem çağrısı takibi) sıkılaştırabilirsiniz.
+
+   💼 Şirketleşme ve Topluluk İnşası Potansiyeli
+Bu tez konusu, ticari bir ürüne dönüştürülmeye (SaaS veya On-Premise Kurumsal Çözüm) son
+derece uygundur:
+
+
+
+  [Akademik Tez] ➔ [Açık Kaynak Kod (GitHub/Forgejo Alternatifi)] ➔
+  [Topluluk İnşası] ➔ [Kurumsal Güvenlik Ürünü (Şirketleşme)]
+
+  ●   Açık Kaynak Topluluk Desteği: Yazılım dünyası şu an merkezi platformlardan kaçış
+      (de-centralization) arayışında. Federe ve güvenli bir Git alternatifi sunduğunuzda, küresel
+      özgür yazılım topluluğu projenize çok hızlı sarılacaktır.
+  ●   B2B Kurumsal Gelir Modeli: Savunma sanayii firmaları, bankalar ve devlet kurumları
+      kodlarını GitHub gibi bulut servislerinde tutamazlar. Onlara &quot;Kendi sunucunuza kurun,
+      diğer güvenli şubelerinizle federe edin ve siber güvenlik analizleri işletim sistemi
+      seviyesinde yapılsın&quot; dediğinizde harika bir ticari ürün satmış olursunuz.
+  ●   Yatırım Alabilme (VC): TÜBİTAK 1512 (Girişimcilik Destek Programı) veya
+      teknoparklardaki erken aşama yatırımcılar (VC), siber güvenlik ve altyapı (infrastructure)
+      projelerine fon sağlamaya çok isteklidir.
+
+🎯 Bu Konu İçin İstanbul&#x27;daki Doğru Hocalar ve Yaklaşım
+Bu konuyu İTÜ, Sabancı veya Boğaziçi&#x27;ndeki hocalarla konuşurken konuyu &quot;kod yazma projesi&quot;
+olarak değil, &quot;Dağıtık sistemlerde güvenli veri senkronizasyonu ve yazılım tedarik zinciri
+siber savunma modeli&quot; olarak sunmalısınız.
+
+Özellikle dağıtık sistemler (distributed systems), bulut bilişim güvenliği (cloud security) ve
+kriptografi çalışan hocalar bu teze bayılacaktır.
+Bu federe sistem için mimari olarak aklınızda Forgejo/Gitea ekosistemini (ActivityPub
+entegrasyonu olan) genişletmek mi var, yoksa sıfırdan Go/Rust gibi dillerle özgün bir
+mikroservis mimarisi mi kurmak istersiniz?
+</pre>
+  </main>
+</body>
+</html>

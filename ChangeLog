@@ -1,0 +1,54 @@
+# ChangeLog
+
+Tarihçe, mevcut Git commit kayıtları ve eski yıllık notlar birleştirilerek
+oluşturulmuştur. Commit açıklamaları özgün hâlleriyle korunmuştur.
+
+## 2025
+
+- 2025-07-10 — hayırlı olsun şimdiden :)
+- 2025-07-10 — bp
+- 2025-07-11 — master
+- 2025-10-30 — Felsefe
+
+## 2026
+
+- 2026-04-05 — update
+- 2026-06-05 — Economy / Social Sciences
+- 2026-06-25 — detaylar
+- 2026-08-13 — Odak Noktamı değiştirdim artık sadece Özgür Yazılım
+- 2026-08-13 — GNU Emacs, bilgisayar programcılığı, Yönetim Bilişim Sistemleri,
+  siber güvenlik yüksek lisansı ve doktorası için odak alanları belirlendi.
+- 2026-08-23 — master ve doktora
+- 2026-08-23 — güncelleme ve pdf master doktora belgeleri
+- 2026-08-23 — kurslar
+- 2026-09-27 — update
+- 2026-09-27 — offsec + kali Linux + Canonical Ubuntu + Android Google etc....
+- 2026-10-08 — güncelleme
+- 2026-10-28 — Akademik dosyalar, dersler, araştırmalar, yüksek lisans ve
+  doktora için klasörlere ayrıldı; README'ler birleştirilerek bu tarihçe
+  oluşturuldu.
+- 2026-10-28 — Akademik profil sitesi yeniden düzenlendi: ortak koyu tema,
+  sayfalar arası tutarlı genişlik ve ortak gezinme menüsü oluşturuldu; profil,
+  akademik çalışmalar, sertifikalar, lisanslar ve değişiklik geçmişi sayfaları
+  eklendi.
+- 2026-10-28 — Gezinme menülerine yüksek lisans ve doktora için PDF, ODT ve
+  ODT kaynağı seçenekleri ile makaleler alt menüsü eklendi. Menülerin fareyle
+  açılması, başka menüye geçince kapanması, içerik alanına gelince kapanması,
+  bağlantı seçilince kapanması ve Escape ile alt menüden üst menüye dönülmesi
+  sağlandı. ODT kaynağı bağlantıları sayfaların sabit menü bağlantılarından
+  kaldırılarak ilgili alt menü seçeneklerinde bırakıldı.
+- 2026-10-28 — JavaScript koduna, yazılım ve dokümantasyon lisanslarına,
+  GitHub kaynak deposuna ve README kaynak dosyasına erişim bağlantıları
+  eklendi; sayfalardaki lisans bildirimleri ve ortak altbilgi düzenlendi.
+- 2026-10-28 — Akademik yol haritası, yüksek lisans ve doktora belgeleri
+  düzenlendi; araştırma konuları, makaleler, konferanslar, projeler ve
+  sertifikalar için klasör yapısı oluşturuldu. Özgür yazılım makalesi ve kurs
+  ile sertifika bilgileri siteye eklendi.
+- 2026-10-28 — Akademik profil ve README içeriği güncellendi; eski yıllık
+  not dosyaları ile önceki konumlarındaki yinelenen akademik PDF dosyaları
+  kaldırıldı, tez ve araştırma belgeleri ilgili klasörlerine taşındı.
+
+## Tarihi belirtilmeyen notlar
+
+- 2026 yılı — Geliştirme ortamı Kali Linux'a taşındı.
+- 2027 yılı — Computer Science focused general search on web

@@ -1,0 +1,246 @@
+/*
+Copyright (C) 2004-2027 Mert Gör
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+:root {
+  color-scheme: dark;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.65;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  background: #000;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #000;
+}
+
+body {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body,
+body * {
+  color: #fff !important;
+  font-family: monospace !important;
+  font-size: 16px !important;
+  line-height: 1.65 !important;
+}
+
+body * {
+  background-color: transparent !important;
+}
+
+a {
+  color: #fff !important;
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus-visible {
+  color: #f4c430 !important;
+}
+
+a:focus-visible {
+  outline: 3px solid #f4c430;
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+}
+
+.site-header {
+  border-bottom: 1px solid currentColor;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.site-brand {
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.site-brand a {
+  text-decoration: none;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.navigation-dropdown {
+  position: relative;
+}
+
+.navigation-dropdown summary {
+  border: 1px solid currentColor;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.25rem 0.6rem;
+}
+
+.navigation-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.navigation-dropdown summary::after {
+  content: " +";
+}
+
+.navigation-dropdown[open] summary::after {
+  content: " −";
+}
+
+.navigation-dropdown summary:hover,
+.navigation-dropdown summary:focus-visible {
+  color: #f4c430 !important;
+}
+
+.navigation-submenu {
+  background-color: #000 !important;
+  border: 1px solid #fff;
+  display: grid;
+  gap: 0.25rem;
+  left: 0;
+  min-width: max-content;
+  padding: 0.5rem;
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+}
+
+.navigation-submenu a {
+  padding: 0.25rem 0.5rem;
+}
+
+.navigation-link-group {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navigation-nested-dropdown {
+  position: relative;
+}
+
+.navigation-nested-dropdown summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.navigation-nested-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.navigation-nested-dropdown summary::after {
+  content: " +";
+}
+
+.navigation-nested-dropdown[open] summary::after {
+  content: " −";
+}
+
+.navigation-nested-dropdown summary:hover,
+.navigation-nested-dropdown summary:focus-visible {
+  color: #f4c430 !important;
+}
+
+.navigation-submenu--side {
+  left: 100%;
+  top: 0;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+}
+
+.card {
+  border: 1px solid currentColor;
+  border-radius: 0.6rem;
+  padding: 0.75rem 1.1rem;
+}
+
+.link-list li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  border-top: 1px solid currentColor;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.license-notice {
+  border: 1px solid currentColor;
+  border-radius: 0.6rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.license-notice h2 {
+  font-size: 1.15rem;
+}
+
+.document-content {
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.document-nav {
+  border-bottom: 1px solid currentColor;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 36rem) {
+  body {
+    padding: 1.25rem 1rem 2rem;
+  }
+}
